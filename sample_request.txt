@@ -1,0 +1,17 @@
+
+GET http://localhost:8080/departments
+
+###
+
+POST http://localhost:8080/departments HTTP/1.1
+content-type: application/json
+
+{
+    "departmentName": "sample",
+    "departmentAddress": "First Main Street, Town, ST, USA",
+    "departmentCode": "1010"
+}
+
+###
+
+GET http://localhost:8080/departments
